@@ -1,8 +1,7 @@
 # eslint-config-homezen
 
+[![CircleCI](https://circleci.com/gh/homezen/eslint-config-homezen.svg?style=shield)](https://circleci.com/gh/homezen/eslint-config-homezen)
 [![Greenkeeper badge](https://badges.greenkeeper.io/homezen/eslint-config-homezen.svg)](https://greenkeeper.io/)
-
-[![CircleCI](https://circleci.com/gh/homezen/eslint-config-homezen.svg?style=svg)](https://circleci.com/gh/homezen/eslint-config-homezen)
 
 eslint configs used by homezen
 
