@@ -15,6 +15,13 @@ module.exports = {
         },
     },
     rules: {
+        'comma-dangle': [2, {
+            arrays: 'always-multiline',
+            objects: 'always-multiline',
+            imports: 'always-multiline',
+            exports: 'always-multiline',
+            functions: 'always-multiline',
+        }],
         'no-var': 2,
         'prefer-const': 2,
         'prefer-spread': 2,
