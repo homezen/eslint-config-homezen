@@ -26,9 +26,5 @@ module.exports = {
         'import/no-mutable-exports': 2,
         'import/order': 2,
         'import/unambiguous': 2,
-        'sort-imports': [2, {
-            ignoreCase: true,
-            memberSyntaxSortOrder: ['all', 'multiple', 'single', 'none'],
-        }],
     },
 }
