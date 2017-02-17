@@ -13,8 +13,7 @@ module.exports = {
         sourceType: 'module',
     },
     rules: {
-        'import/extensions': [
-            2,
+        'import/extensions': [2,
             'never',
             {
                 json: 'always',
@@ -27,6 +26,9 @@ module.exports = {
         'import/no-mutable-exports': 2,
         'import/order': 2,
         'import/unambiguous': 2,
-        'no-require': 2,
+        'sort-imports': [2, {
+            ignoreCase: true,
+            memberSyntaxSortOrder: ['all', 'multiple', 'single', 'none'],
+        }],
     },
 }
