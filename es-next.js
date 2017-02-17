@@ -4,7 +4,9 @@
     ES6+ config
 */
 module.exports = {
-    env: ['es6'],
+    env: {
+        es6: true,
+    },
     parserOptions: {
         ecmaVersion: 6,
         ecmaFeatures: {
