@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint *.js",
+    "postpublish": "greenkeeper-postpublish",
     "release": "NODE_ENV=production hz-release-public-module",
     "test": "npm run lint"
   },
@@ -13,7 +14,7 @@
     "npm": "^3 || ^4"
   },
   "devDependencies": {
-    "@homezen/hz-npm-scripts": "~1.1.0"
+    "@homezen/hz-npm-scripts": "~1.0.3"
   },
   "dependencies": {
     "eslint": "3.15.0",
