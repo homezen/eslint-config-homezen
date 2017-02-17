@@ -11,7 +11,7 @@ module.exports = {
     ],
     parserOptions: {
         ecmaVersion: 6,
-        ecmaFeatures: [{jsx: true}],
+        ecmaFeatures: {jsx: true},
     },
     rules: {
         'jsx-quotes': [2, 'prefer-single'],
