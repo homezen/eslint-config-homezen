@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-homezen",
+  "version": "1.0.0",
+  "description": "eslint configs used by homezen",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --config node.js *.js",
+    "test": "npm run lint"
+  },
+  "engines": {
+    "node": "^6 || ^7",
+    "npm": "^3 || ^4"
+  },
+  "devDependencies": {
+    "@homezen/hz-npm-scripts": "~1.0.3"
+  },
+  "dependencies": {
+    "eslint": "3.15.0",
+    "eslint-import-resolver-webpack": "0.8.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-lodash": "2.3.5",
+    "eslint-plugin-lodash-fp": "^2.1.3",
+    "eslint-plugin-react": "6.10.0",
+    "eslint-plugin-redux-saga": "0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homezen/eslint-config-homezen.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "homezen"
+  ],
+  "author": "spaintrain <mcspainhower+npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/homezen/eslint-config-homezen/issues"
+  },
+  "homepage": "https://github.com/homezen/eslint-config-homezen#readme"
+}
