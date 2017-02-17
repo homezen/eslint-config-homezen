@@ -3,11 +3,9 @@
 module.exports = {
     plugins: [
         'react',
-        'redux-saga',
     ],
     extends: [
         'plugin:react/recommended',
-        'plugin:redux-saga/recommended',
     ],
     parserOptions: {
         ecmaVersion: 6,
