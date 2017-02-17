@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint *.js",
+    "release": "NODE_ENV=production hz-release-public-module",
     "test": "npm run lint"
   },
   "engines": {
