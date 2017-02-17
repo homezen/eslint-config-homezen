@@ -1,0 +1,22 @@
+general:
+    artifacts:
+        - 'npm-debug.log'
+
+machine:
+    node:
+        version: '6.9'
+
+dependencies:
+    pre:
+        - uname -a && . /etc/lsb-release && echo $DISTRIB_DESCRIPTION
+        - npm i -g npm@latest
+        - npm -v
+
+deployment:
+    master:
+        branch: master
+        commands:
+            - cp .npmrc.ci .npmrc
+            - npm info || echo "no published package yet"
+            - npm run release
+            - npm info
