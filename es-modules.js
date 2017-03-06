@@ -4,7 +4,10 @@
     ES Modules config
 */
 module.exports = {
-    plugins: ['import'],
+    plugins: [
+        'dependencies',
+        'import',
+    ],
     extends: [
         'homezen/es-next',
         'plugin:import/errors',
@@ -13,6 +16,7 @@ module.exports = {
         sourceType: 'module',
     },
     rules: {
+        'dependencies/no-cycles': 2,
         'import/extensions': [2,
             'never',
             {
