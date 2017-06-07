@@ -4,12 +4,14 @@ general:
 
 machine:
     node:
-        version: '6.9'
+        version: '6.11'
+    environment:
+        npm_config_package_lock: false
 
 dependencies:
     pre:
         - uname -a && . /etc/lsb-release && echo $DISTRIB_DESCRIPTION
-        - npm i -g npm@latest
+        - npm i -g npm@^5
         - npm -v
 
 deployment:
