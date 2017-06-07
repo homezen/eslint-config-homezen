@@ -5,17 +5,15 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint *.js",
-    "postpublish": "greenkeeper-postpublish",
     "release": "NODE_ENV=production hz-release-public-module",
     "test": "npm run lint"
   },
   "engines": {
-    "node": "^6 || ^7",
-    "npm": "^3 || ^4"
+    "node": "^6 || ^8",
+    "npm": "^3 || ^4 || ^5"
   },
   "devDependencies": {
-    "@homezen/hz-npm-scripts": "~1.2.0",
-    "greenkeeper-postpublish": "~1.0.1"
+    "@homezen/hz-npm-scripts": "~1.2.0"
   },
   "dependencies": {
     "eslint": "3.19.0",
