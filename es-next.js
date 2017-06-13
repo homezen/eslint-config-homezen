@@ -25,6 +25,7 @@ module.exports = {
         'no-var': 2,
         'prefer-const': 2,
         'prefer-spread': 2,
+        'require-await': 2,
         strict: [2, 'never'],
     },
 }
