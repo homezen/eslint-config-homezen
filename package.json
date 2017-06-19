@@ -18,7 +18,7 @@
   "dependencies": {
     "eslint": "4.0.0",
     "eslint-import-resolver-webpack": "0.8.1",
-    "eslint-plugin-dependencies": "2.3.0",
+    "eslint-plugin-dependencies": "2.4.0",
     "eslint-plugin-import": "2.3.0",
     "eslint-plugin-lodash": "2.4.3",
     "eslint-plugin-lodash-fp": "2.1.3",
