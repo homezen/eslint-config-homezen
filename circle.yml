@@ -13,6 +13,10 @@ dependencies:
         - uname -a && . /etc/lsb-release && echo $DISTRIB_DESCRIPTION
         - npm i -g npm@^5
         - npm -v
+        - npm i -g yarn
+        - rm -rf ~/.yarn
+    override:
+        - yarn install --no-lockfile
 
 deployment:
     master:
