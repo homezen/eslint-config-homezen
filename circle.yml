@@ -16,7 +16,7 @@ dependencies:
         - npm i -g yarn
         - rm -rf ~/.yarn
     override:
-        - yarn install --no-lockfile
+        - yarn install --pure-lockfile
 
 deployment:
     master:

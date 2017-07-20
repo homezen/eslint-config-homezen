@@ -11,7 +11,7 @@
   "engines": {
     "node": "^6 || ^8",
     "npm": "^3 || ^4 || ^5",
-    "yarn": ">=0.24.5"
+    "yarn": ">=0.27.5"
   },
   "devDependencies": {
     "@homezen/hz-npm-scripts": "~1.2.0"
@@ -20,6 +20,7 @@
     "eslint": "4.2.0",
     "eslint-import-resolver-webpack": "0.8.3",
     "eslint-plugin-dependencies": "2.4.0",
+    "eslint-plugin-flowtype": "2.35.0",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-lodash": "2.4.4",
     "eslint-plugin-lodash-fp": "2.1.3",
