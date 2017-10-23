@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-homezen",
-  "version": "3.9.9",
+  "version": "3.9.10",
   "description": "eslint configs used by homezen",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,6 @@
     "eslint-import-resolver-webpack": "0.8.3",
     "eslint-plugin-dependencies": "2.4.0",
     "eslint-plugin-flowtype": "2.39.1",
-    "eslint-plugin-import": "2.7.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-lodash": "2.5.0",
     "eslint-plugin-lodash-fp": "2.1.3",
