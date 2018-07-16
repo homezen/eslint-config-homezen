@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-homezen",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "eslint configs used by homezen",
   "main": "index.js",
   "scripts": {
