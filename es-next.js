@@ -8,11 +8,7 @@ module.exports = {
         es6: true,
     },
     parserOptions: {
-        ecmaVersion: 6,
-        ecmaFeatures: {
-            impliedStrict: true,
-            experimentalObjectRestSpread: true,
-        },
+        ecmaVersion: 2018,
     },
     rules: {
         'comma-dangle': [2, {
