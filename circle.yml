@@ -4,7 +4,7 @@ general:
 
 machine:
     node:
-        version: '6.11'
+        version: '8.11'
     environment:
         npm_config_package_lock: false
 
