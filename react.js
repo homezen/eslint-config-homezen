@@ -15,13 +15,6 @@ module.exports = {
         'jsx-quotes': [2, 'prefer-single'],
         'react/display-name': [2, {ignoreTranspilerName: false}],
         'react/jsx-boolean-value': 2,
-        'react/jsx-closing-bracket-location': [
-            2,
-            {
-                selfClosing: 'after-props',
-                nonEmpty: 'tag-aligned',
-            },
-        ],
         'react/jsx-curly-spacing': 2,
         'react/jsx-handler-names': 2,
         'react/jsx-indent': 2,
